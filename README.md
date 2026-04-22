@@ -1,8 +1,8 @@
-hapat per ekzekutimin e kodit:
-kliko ne < >code
-kliko ne download zip
-ekstraktoni folderin zip
-hapni nje cmd
+hapat per ekzekutimin e kodit:\n
+kliko ne < >code\n
+kliko ne download zip\n
+ekstraktoni folderin zip\n
+hapni nje cmd\n
 shoni tek pathi i folderit permes cd */*/*
   |
   |-----client:
