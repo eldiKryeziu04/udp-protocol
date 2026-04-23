@@ -77,7 +77,7 @@ void handle_command(SOCKET s, char* cmd, int isAdmin, struct sockaddr_in cAddr) 
 
     if (strncmp(cmd, "/list", 5) == 0) {
         if (!isAdmin) {
-            strcpy(response, "GABIM: Vetem Admini mund te beje upload.");
+            strcpy(response, "GABIM: Vetem Admini mund te shikoj listen.");
         } else {
         system("dir /b server_files > list.txt");
         FILE *f = fopen("list.txt", "r");
@@ -120,7 +120,7 @@ void handle_command(SOCKET s, char* cmd, int isAdmin, struct sockaddr_in cAddr) 
 
     else if (strncmp(cmd, "/download", 9) == 0) {
         if (!isAdmin) {
-            strcpy(response, "GABIM: Vetem Admini mund te beje upload.");
+            strcpy(response, "GABIM: Vetem Admini mund te beje download.");
         }
         else{
         if (sscanf(cmd, "/download %s", filename) == 1) {
@@ -150,7 +150,7 @@ void handle_command(SOCKET s, char* cmd, int isAdmin, struct sockaddr_in cAddr) 
 
     else if (strncmp(cmd, "/search", 7) == 0) {
         if (!isAdmin) {
-            strcpy(response, "GABIM: Vetem Admini mund te beje upload.");
+            strcpy(response, "GABIM: Vetem Admini mund te beje search.");
         } else {
         char keyword[100];
         if (sscanf(cmd, "/search %s", keyword) == 1) {
@@ -169,7 +169,7 @@ void handle_command(SOCKET s, char* cmd, int isAdmin, struct sockaddr_in cAddr) 
     }
     else if (strncmp(cmd, "/info", 5) == 0) {
          if (!isAdmin) {
-            strcpy(response, "GABIM: Vetem Admini mund te beje upload.");
+            strcpy(response, "GABIM: Vetem Admini mund te shikoj informatat e fajllave.");
         } else {
         if (sscanf(cmd, "/info %s", filename) == 1) {
             char path[150]; 
