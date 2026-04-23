@@ -13,3 +13,18 @@
 [Sun Apr 19 17:42:09 2026] IP: 127.0.0.1 | Komanda: /search eldi
 [Sun Apr 19 17:42:30 2026] IP: 127.0.0.1 | Komanda: /delete jesss.txt
 [Wed Apr 22 22:54:07 2026] IP: 192.168.24.1 | Komanda: 
+[Thu Apr 23 15:09:24 2026] IP: 192.168.24.1 | Komanda: /list
+[Thu Apr 23 15:09:52 2026] IP: 192.168.24.1 | Komanda: /info eldi2
+[Thu Apr 23 15:10:03 2026] IP: 192.168.24.1 | Komanda: /read eldi2
+[Thu Apr 23 15:10:12 2026] IP: 192.168.24.1 | Komanda: /read info.txt
+[Thu Apr 23 15:12:13 2026] IP: 192.168.24.1 | Komanda: /search eldi
+[Thu Apr 23 15:12:18 2026] IP: 192.168.24.1 | Komanda: /search info
+[Thu Apr 23 15:12:28 2026] IP: 192.168.24.1 | Komanda: /download info.txt
+[Thu Apr 23 15:12:42 2026] IP: 192.168.24.1 | Komanda: /upload eldi.txt
+[Thu Apr 23 15:12:50 2026] IP: 192.168.24.1 | Komanda: /upload eldi.txt eldi
+[Thu Apr 23 15:12:55 2026] IP: 192.168.24.1 | Komanda: /search eldi
+[Thu Apr 23 15:13:02 2026] IP: 192.168.24.1 | Komanda: /delete eldi.txt
+[Thu Apr 23 15:13:06 2026] IP: 192.168.24.1 | Komanda: /list
+[Thu Apr 23 15:13:12 2026] IP: 192.168.24.1 | Komanda: /info info.txt
+[Thu Apr 23 15:13:29 2026] IP: 192.168.24.1 | Komanda: /info info.txt
+[Thu Apr 23 15:26:46 2026] IP: 192.168.24.1 | Komanda: /list

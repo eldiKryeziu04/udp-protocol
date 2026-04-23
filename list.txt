@@ -1,6 +1,3 @@
-eldi.txt
-eldi2.txt
 info.txt
 info2.txt
-jesss.txt
 logs.txt

@@ -295,10 +295,14 @@ fflush(stdout);
             int n = recv(clientS, buf, sizeof(buf) - 1, 0); 
 
             if (n > 0) {
-
-        buf[n] = '\0';
-    
-        save_log(inet_ntoa(cAddr.sin_addr), buf);
+                buf[n] = '\0';
+                save_log(inet_ntoa(cAddr.sin_addr), buf);
+        for (int i = 0; i < MAX_CLIENTS; i++) {
+        if (clients[i].is_active && clients[i].port == ntohs(cAddr.sin_port)) {
+            clients[i].msg_count++;
+            break;
+        }
+    }
     fflush(stdout); 
 
     if (strcmp(buf, "/exit") == 0) break;
